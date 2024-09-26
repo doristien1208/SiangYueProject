@@ -1,0 +1,52 @@
+<!-- <nav class="navbar">
+    <ul>
+      <li><a routerLink="/home">首頁</a></li>
+      <li><a routerLink="/about">關於享悅</a></li>
+      <li><a routerLink="/brand">經銷品牌</a></li>
+      <li><a routerLink="/project">實際專案</a></li>
+      <li><a routerLink="/serviceflow">服務流程</a></li>
+    </ul>
+</nav> -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark" data-bs-theme="dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" routerLink="/home"><img src="/docs/5.0/assets/brand/bootstrap-logo.svg" alt="" width="30" height="24">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item mx-3"> <!-- 增加左右間距 -->
+            <a class="nav-link" aria-current="page" routerLink="/home">首頁</a>
+          </li>
+          <li class="nav-item mx-3"> <!-- 增加左右間距 -->
+            <a class="nav-link" routerLink="/about">關於享悅</a>
+          </li>
+          <li class="nav-item dropdown mx-3"> <!-- 增加左右間距 -->
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" routerLink="/brand">
+              經銷品牌
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown mx-3"> <!-- 增加左右間距 -->
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" routerLink="/project">
+              實際專案
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item mx-3"> <!-- 增加左右間距 -->
+            <a class="nav-link" routerLink="/serviceflow">服務流程</a>
+          </li>
+        </ul>
+      </div>      
+    </div>
+  </nav>
