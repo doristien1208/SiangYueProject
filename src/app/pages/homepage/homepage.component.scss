@@ -1,0 +1,24 @@
+html,body{
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+#banner{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 0;
+}
+#banner img{
+    display: block;
+    margin:0 auto;
+    padding-top: 3%;
+    width: 70%;
+    max-width: 70%;
+    height: auto;
+}
+
+#banner .col-auto {
+    max-width: 100%; // 确保内容不会超出容器宽度
+  }
